@@ -44,6 +44,10 @@ aws-iam-authenticator version
 
 ### 4. Deploy the kubernetes cluster:
 ```sh
+# Get the terraform files
+git clone https://github.com/easy2stake/thegraph
+cd thegraph/aws-terraform
+
 # Initialize the working directory
 terraform init
 # Look for the "Terraform has been successfully initialized!" to confirm everything worked
